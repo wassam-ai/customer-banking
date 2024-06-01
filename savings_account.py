@@ -1,5 +1,5 @@
 """Import the Account class from the Account.py file."""
-import Account
+from Account import Account
 
 # Define a function for the Savings Account
 def create_savings_account(balance, interest_rate, months):
